@@ -7,6 +7,8 @@ header h1 {
     text-align: center;
     margin: 0;
     padding-top: 20px;
+    font-size: 52px;
+    font-family: "Gochi Hand";
 }
 
 header nav{
@@ -21,6 +23,7 @@ header nav ul {
 }
 
 header nav ul li a {
+    font-family: Montserrat;
  color: #fff;
  text-decoration: none; 
  margin: 0 20px 0 0;
@@ -46,4 +49,8 @@ header nav ul li:last-child a {
     header nav{
         margin-top: 16px;
     }
+
+    header nav ul li a:hover {
+        color: #bdbdbd;
+      }
 }
